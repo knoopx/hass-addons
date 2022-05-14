@@ -5,27 +5,24 @@
         "armhf",
         "aarch64"
     ],
-    "description": "a lightweight service delivery platform for containerized applications",
-    "docker_api": true,
-    "image": "portainer/portainer-ce",
+    "description": "a file managing interface",
+    "image": "hurlenko/filebrowser",
     "ingress": true,
-    "ingress_port": 9000,
+    "ingress_port": 8080,
     "init": false,
     "map": [
         "ssl"
     ],
     "ports": {
-        "8000/tcp": null,
-        "9000/tcp": null
+        "8080/tcp": null
     },
     "ports_description": {
-        "8000/tcp": "edge",
-        "9000/tcp": "ui"
+        "8080/tcp": "ui"
     },
-    "name": "Portainer",
-    "panel_icon": "mdi:docker",
-    "slug": "portainer",
+    "name": "File Browser",
+    "panel_icon": "mdi:file",
+    "slug": "filebrowser",
     "startup": "services",
-    "url": "https://github.com/knoopx/hass-addons/hass-portainer",
-    "version": "alpine"
+    "url": "https://github.com/knoopx/hass-addons/hass-filebrowser",
+    "version": "latest"
 }

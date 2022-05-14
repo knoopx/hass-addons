@@ -1,0 +1,31 @@
+{
+    "arch": [
+        "amd64",
+        "armv7",
+        "armhf",
+        "aarch64"
+    ],
+    "description": "a lightweight service delivery platform for containerized applications",
+    "docker_api": true,
+    "image": "portainer/portainer-ce",
+    "ingress": true,
+    "ingress_port": 9000,
+    "init": false,
+    "map": [
+        "ssl"
+    ],
+    "ports": {
+        "8000/tcp": null,
+        "9000/tcp": null
+    },
+    "ports_description": {
+        "8000/tcp": "edge",
+        "9000/tcp": "ui"
+    },
+    "name": "Portainer",
+    "panel_icon": "mdi:docker",
+    "slug": "portainer",
+    "startup": "services",
+    "url": "https://github.com/knoopx/hass-addons/hass-portainer",
+    "version": "alpine"
+}
