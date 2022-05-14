@@ -7,7 +7,7 @@
     ],
     "description": "a lightweight service delivery platform for containerized applications",
     "docker_api": true,
-    "image": "portainer/portainer-ce-{arch}",
+    "image": "portainer/portainer-ce",
     "ingress": true,
     "ingress_port": 9000,
     "init": false,
